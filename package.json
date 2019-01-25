@@ -1,6 +1,6 @@
 {
   "name": "@chendye/bages-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/plus.min.js",
   "module": "src/index.js",
