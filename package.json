@@ -1,0 +1,32 @@
+{
+  "name": "@chendye/bages-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitmsg": "validate-commit-msg",
+    "commit": "git-cz ",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chendye/badges-demo.git"
+  },
+  "keywords": [
+    "badges",
+    "ci"
+  ],
+  "author": "Chendye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chendye/badges-demo/issues"
+  },
+  "homepage": "https://github.com/chendye/badges-demo#readme",
+  "devDependencies": {
+    "commitizen": "^2.3.0",
+    "validate-commit-msg": "^2.11.1",
+    "conventional-changelog-cli": "^1.2.0",
+    "husky": "^0.13.1"
+  }
+}
